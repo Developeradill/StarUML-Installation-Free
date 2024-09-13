@@ -34,11 +34,11 @@ Then, extract the app.asar file by running:
 cmd:
 asar extract app.asar app
 
-###5. **Modify the License Manager**
+### 5. **Modify the License Manager**
 Navigate to the extracted folder: New Asar/app/src/engine and locate the license-manager.js file. 
 Open this file in a text editor and replace its content with the code provided in this repository (Licence file).
 
-###6. **Repack the app.asar File**
+### 6. **Repack the app.asar File**
 After editing the license-manager.js file, go back to the command prompt and run:
 
 cmd:
@@ -46,12 +46,12 @@ asar pack app app.asar
 
 This will repack the modified files into a new app.asar file.
 
-###7. **Replace the Original app.asar File**
+### 7. **Replace the Original app.asar File**
 Copy the newly created app.asar file and replace the original one located in: C:\Program Files\StarUML\resources.
 
-###8. **Open StarUML**
+### 8. **Open StarUML**
 Start StarUML, and it should work without requiring license validation.
 
 
-**Disclaimer**
+### **Disclaimer**
 This repository is for educational purposes only. Bypassing software licenses may violate terms of service and local laws. Use this guide responsibly.
