@@ -4,7 +4,7 @@
 This guide helps users bypass the StarUML license validation by modifying the license-checking script in the `app.asar` file. By following this procedure, you will be able to run StarUML without requiring a license key. This process involves using Node.js and the `asar` package to unpack and repack the `app.asar` file in the StarUML installation directory.
 
 ## Prerequisites
-- StarUML installed on your system
+- StarUML installed on your system (Download from [here](https://staruml.io/))
 - Node.js installed (Download from [here](https://nodejs.org/en))
 - Basic knowledge of command-line operations
 
