@@ -35,7 +35,8 @@ cmd:
 asar extract app.asar app
 
 ###5. **Modify the License Manager**
-Navigate to the extracted folder: New Asar/app/src/engine and locate the license-manager.js file. Open this file in a text editor and replace its content with the code provided in this repository.
+Navigate to the extracted folder: New Asar/app/src/engine and locate the license-manager.js file. 
+Open this file in a text editor and replace its content with the code provided in this repository (Licence file).
 
 ###6. **Repack the app.asar File**
 After editing the license-manager.js file, go back to the command prompt and run:
